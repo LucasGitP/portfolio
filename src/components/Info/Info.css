@@ -1,0 +1,11 @@
+.info {
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  h2 {
+    color: #1fc0e2;
+    text-shadow: 0 0 10px #1fc0e2;
+  }
+}
