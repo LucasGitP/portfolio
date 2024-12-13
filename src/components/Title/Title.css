@@ -1,0 +1,7 @@
+.title {
+  h2,
+  hr {
+    color: #1fc0e2;
+    text-shadow: 0 0 10px #1fc0e2;
+  }
+}
