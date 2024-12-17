@@ -9,7 +9,7 @@ export default function Navbar() {
         <ul className="list">
           {links.map((link) => (
             <li className="item" key={link}>
-              {link}
+              <a href="">{link}</a>
             </li>
           ))}
         </ul>
