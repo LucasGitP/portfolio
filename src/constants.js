@@ -3,7 +3,7 @@ export const sections = {
   experience: "Experience",
   reference: "References",
   education: "Education",
-  projects: 'My Projects'
+  projects: "Projects",
 };
 
 export const info = [
@@ -18,5 +18,38 @@ export const info = [
     name: "location",
     direction:
       "https://www.google.com/maps/place/Buenos+Aires/@-34.6156548,-58.5156996,12z/data=!3m1!4b1!4m6!3m5!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!8m2!3d-34.6036844!4d-58.3815591!16zL20vMDFseTVt?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D",
+  },
+];
+
+export const projects = [
+  {
+    name: "Back office",
+    img: "back-office.png",
+    tools: ["react", "vite", "sqlite3", "express"],
+    team: "GM2 Bootcamp",
+    description: "",
+    link: "https://github.com/gm2dev/bootcamp-2024-tp-final",
+    start: "13/11/2024",
+    finalize: "29/11/2024",
+  },
+  {
+    name: "Back office",
+    img: "back-office.png",
+    tools: ["react", "vite", "sqlite3", "express"],
+    team: "GM2 Bootcamp",
+    description: "",
+    link: "https://github.com/gm2dev/bootcamp-2024-tp-final",
+    start: "13/11/2024",
+    finalize: "29/11/2024",
+  },
+  {
+    name: "Back office",
+    img: "back-office.png",
+    tools: ["react", "vite", "sqlite3", "express"],
+    team: "GM2 Bootcamp",
+    description: "",
+    link: "https://github.com/gm2dev/bootcamp-2024-tp-final",
+    start: "13/11/2024",
+    finalize: "29/11/2024",
   },
 ];
