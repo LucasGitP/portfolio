@@ -1,7 +1,24 @@
 .title {
-  h2,
-  hr {
-    color: #1fc0e2;
-    text-shadow: 0 0 10px #1fc0e2;
-  }
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0 10px 0 0;
+  position: relative;
+  z-index: 1;
+  background-color: #242424;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #1fc0e2;
+  z-index: 0;
 }
