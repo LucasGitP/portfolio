@@ -30,7 +30,7 @@ export default function ProjectCard({ project }) {
           <div className="tools">
             {project.tools.map((tool) => (
               <img
-                key={project.name}
+                key={tool}
                 src={`/assets/${tool}.svg`}
                 className={
                   tool === "express"
