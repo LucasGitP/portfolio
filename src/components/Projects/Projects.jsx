@@ -11,7 +11,7 @@ export default function Projects() {
           {projects &&
             projects.map((project) => (
               <ProjectCard
-                key={project}
+                key={project.name}
                 project={project}
               ></ProjectCard>
             ))}
