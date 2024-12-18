@@ -1,7 +1,7 @@
 import Section from "../Section/Section";
 export default function About() {
   return (
-    <Section section="About me">
+    <Section section="about">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa incidunt
         eveniet delectus, omnis eos blanditiis dolore facilis facere consectetur
