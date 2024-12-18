@@ -14,23 +14,16 @@
     width: 30px;
   }
 
-  .container-subject {
+  .experience-tools {
     display: flex;
     justify-content: center;
     align-items: center;
-    .tools {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-    }
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px 0;
   }
 
-  .express {
-    width: 70px;
-    height: 60px;
-  }
-
-  .sqlite3 {
+  .big-img {
     width: 70px;
     height: 60px;
   }
