@@ -1,12 +1,56 @@
-.info {
+.contact {
   padding: 50px 0;
   div {
     display: flex;
     justify-content: center;
     gap: 5px;
   }
-  h2 {
-    color: #1fc0e2;
-    text-shadow: 0 0 10px #1fc0e2;
+  .icons{
+    margin-top: 20px;
+  }
+
+  .my-job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.1;
+    padding: 20px;
+
+    h2 {
+      font-size: 2em;
+      margin: 0;
+      color: #1fc0e2;
+      text-shadow: 0 0 10px #1fc0e2;
+    }
+    p {
+      margin: 0;
+      font-size: 1.25em;
+      font-weight: 600;
+    }
+
+    .last-name::after {
+      content: "B.";
+    }
+    @media (min-width: 768px) {
+      .last-name::after {
+        content: "";
+      }
+
+      .last-name::after {
+        content: "Berardi";
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .info {
+    display: flex;
+    justify-content: center;
+
+    .icons{
+      margin-top: 20px;
+    }
   }
 }
