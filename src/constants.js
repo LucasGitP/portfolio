@@ -4,6 +4,7 @@ export const sections = {
   reference: "References",
   education: "Education",
   projects: "Projects",
+  about: "About me",
 };
 
 export const contact = [
@@ -71,7 +72,21 @@ export const experience = [
     finalize: "29/11/2024",
     img: "gm2.svg",
     area: "Web Development",
-    tools: ["react", "html", "css", "javaScript", "sqlite3", "express"],
+    tools: [
+      "slack",
+      "github",
+      "vite",
+      "react",
+      "figma",
+      "notion",
+      "trello",
+      "node-js",
+      "html",
+      "css",
+      "javaScript",
+      "sqlite3",
+      "express",
+    ],
     description: "",
   },
 ];
