@@ -1,0 +1,16 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 0 25px;
+
+  .div {
+    display: flex;
+  }
+
+  h3 {
+    margin: 0;
+    color: #1fc0e2;
+    text-shadow: 0 0 10px #1fc0e2;
+  }
+}
