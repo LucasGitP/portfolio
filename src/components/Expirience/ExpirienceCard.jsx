@@ -19,24 +19,24 @@ export default function ExpirienceCard({ experience }) {
             reprehenderit blanditiis nisi!
           </p>
         </div>
-        <Subject title={"Tools"}>
-          <div className="tools">
-            {experience.tools.map((tool) => (
-              <img
-                key={`experience-${tool}`}
-                src={`/assets/${tool}.svg`}
-                className={
-                  tool === "express"
-                    ? "express"
-                    : tool === "sqlite3"
-                    ? "sqlite3"
-                    : "img"
-                }
-                alt={tool}
-              />
-            ))}
-          </div>
-        </Subject>
+        <div className="experience-tools">
+          {experience.tools.map((tool) => (
+            <img
+              key={`experience-${tool}`}
+              src={`/assets/${tool}.svg`}
+              className={
+                tool === "express"
+                  ? "big-img"
+                  : tool === "sqlite3"
+                  ? "big-img"
+                  : tool === "node-js"
+                  ? "big-img"
+                  : "img"
+              }
+              alt={tool}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
