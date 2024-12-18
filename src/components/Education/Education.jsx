@@ -1,4 +1,4 @@
-import { education } from "../../constants.JS";
+import { education } from "../../constants.js";
 import Section from "../Section/Section";
 import EducationCard from "./EducationCard";
 
