@@ -8,6 +8,7 @@
   li {
     color: #1fc0e2;
     font-size: 1.25em;
+    text-shadow: 0 0 10px #1fc0e2;
   }
 }
 
