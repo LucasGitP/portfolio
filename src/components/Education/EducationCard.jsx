@@ -8,9 +8,12 @@ export default function EducationCard({ education }) {
           {education.year}: {education.level}
         </h3>
       </div>
-      <div>
-        <span>{education.insitution}</span>
-        <span>{education.title}</span>
+      <div className="container-title">
+        <span>
+          {education.institution}
+          {education.title && ":"}
+        </span>
+        <span>{education.title && education.title}</span>
       </div>
     </div>
   );

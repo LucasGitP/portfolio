@@ -1,16 +1,54 @@
 .education {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 15px 0 25px;
-
-  .div {
+  gap: 25px;
+  padding: 25px 0;
+  align-items: center;
+  div {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    font-weight: 800;
   }
 
   h3 {
     margin: 0;
     color: #1fc0e2;
     text-shadow: 0 0 10px #1fc0e2;
+  }
+
+  .container-title {
+    padding: 10px 0;
+  }
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .education {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: baseline;
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 1240) {
+  .container-title {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
   }
 }
