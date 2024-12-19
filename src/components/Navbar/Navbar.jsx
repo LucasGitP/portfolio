@@ -10,7 +10,12 @@ export default function Navbar() {
         <ul className="list">
           {links.map((link) => (
             <li key={link}>
-              <Link to={link} smooth={true} duration={500}>
+              <Link
+                to={link}
+                smooth={true}
+                duration={800}
+                offset={-window.innerHeight / 4}
+              >
                 {link.toUpperCase()}
               </Link>
             </li>
