@@ -6,7 +6,7 @@ import "./Info.css";
 
 export default function Info() {
   return (
-    <Section>
+    <Section section='contact'>
       <div className="contact">
         <MyPhoto></MyPhoto>
         <div className="my-job">
