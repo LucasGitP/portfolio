@@ -5,7 +5,7 @@ export default function Section({ section, children }) {
   return (
     <>
       <section className="section" id={section}>
-        {section && <Title section={section}></Title>}
+        {section !== 'contact' && <Title section={section}></Title>}
         {children}
       </section>
     </>
