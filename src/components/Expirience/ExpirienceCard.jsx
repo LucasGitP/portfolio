@@ -13,10 +13,12 @@ export default function ExpirienceCard({ experience }) {
         </span>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id
-            numquam earum quidem quod, fugit eum dignissimos voluptatum quia
-            eius maiores aliquid ipsam, laudantium ea exercitationem distinctio
-            reprehenderit blanditiis nisi!
+            During my internship at GM2DEV, a leading digital product company, I
+            contributed to all stages of web application development, from
+            planning to maintenance. Collaborating with design teams, I ensured
+            user-centered experiences, reflecting GM2’s commitment to excellence
+            and innovation. This experience fostered my growth while aligning
+            with the company’s vision of impact and continuous improvement.
           </p>
         </div>
         <div className="experience-tools">
