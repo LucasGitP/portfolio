@@ -1,22 +1,22 @@
 export const sections = {
   knowledge: "Knowdledge",
   experience: "Experience",
-  reference: "References",
+  references: "References",
   education: "Education",
   projects: "Projects",
   about: "About me",
 };
 
 export const contact = [
-  { name: "phone", direction: "https://wa.me/5491165865633" },
-  { name: "email", direction: "mailto:lucascirilloberardi@gmail.com" },
+  { name: "phone.svg", direction: "https://wa.me/5491165865633" },
+  { name: "email.svg", direction: "mailto:lucascirilloberardi@gmail.com" },
   {
-    name: "linkedin",
+    name: "linkedin.svg",
     direction: "https://www.linkedin.com/in/lucas-cirillo-berardi-0a966630b/",
   },
-  { name: "github", direction: "https://github.com/LucasGitP" },
+  { name: "github.svg", direction: "https://github.com/LucasGitP" },
   {
-    name: "location",
+    name: "location.svg",
     direction:
       "https://www.google.com/maps/place/Buenos+Aires/@-34.6156548,-58.5156996,12z/data=!3m1!4b1!4m6!3m5!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!8m2!3d-34.6036844!4d-58.3815591!16zL20vMDFseTVt?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D",
   },
@@ -95,19 +95,109 @@ export const education = [
   {
     year: "2024",
     level: "Web Development Bootcamp",
-    instution: "Gm2dev",
+    institution: "Gm2dev",
     title: "Front-end Developer",
   },
   {
     year: "2018-2024",
     level: "Technical High School",
-    instution: "Ins. Ind. Luis A. Huergo",
+    institution: "Ins. Ind. Luis A. Huergo",
     title: "Computer Technician",
   },
   {
     year: "2011-2018",
     level: "Elementary Education",
-    instution: "Gm2dev",
-    title: "Instituto Santa Cruz",
+    institution: "Instituto Santa Cruz",
   },
 ];
+
+export const knowledge = [
+  {
+    name: "react.svg",
+    img: "ReactJs",
+    direction: "",
+    type: "programming",
+  },
+  {
+    name: "javaScript.svg",
+    img: "JavaScript",
+    direction: "",
+    type: "programming",
+  },
+  {
+    name: "css.svg",
+    img: "CSS",
+    direction: "",
+    type: "programming",
+  },
+  {
+    name: "html.svg",
+    img: "HTML",
+    direction: "",
+    type: "programming",
+  },
+  {
+    name: "github.svg",
+    img: "Github",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "vite.svg",
+    img: "Vite",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "node-js.svg",
+    img: "NodeJs",
+    direction: "https://github.com/LucasGitP",
+    type: "programming",
+  },
+  {
+    name: "express.svg",
+    img: "ExpressJs",
+    direction: "https://github.com/LucasGitP",
+    type: "programming",
+  },
+  {
+    name: "figma.svg",
+    img: "Figma",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "notion.svg",
+    img: "Notion",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "trello.svg",
+    img: "Trello",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "slack.svg",
+    img: "Slack",
+    direction: "https://github.com/LucasGitP",
+    type: "tools",
+  },
+  {
+    name: "sqlite3.svg",
+    img: "Sqlite3",
+    direction: "https://github.com/LucasGitP",
+    type: "programming",
+  },
+];
+
+export const myInfo = {
+  name: "Lucas Cirillo Berardi",
+  age: new Date().getFullYear() - 2006,
+  languages: {
+    native: "Spanish",
+    others: ["English"],
+  },
+  job: "Front-end Developer",
+};
