@@ -1,19 +1,18 @@
 import "./Icon.css";
 
 function Icon({ page }) {
-  const { name, direction } = page;
 
   return (
     <>
       <i className="icon">
         <a
-          href={direction}
+          href={page.direction}
           target="_blank"
           rel="noopener noreferrer"
           className="icon-link"
         >
           <div>
-            <img src={`/assets/${name}.svg`} alt={name} className="icon-img" />
+            <img src={`/assets/${page.name}`} alt={page.name} className="icon-img" />
           </div>
         </a>
       </i>
