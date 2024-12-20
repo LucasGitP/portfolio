@@ -1,8 +1,8 @@
 import { knowledge, myInfo } from "../../constants.js";
 import Section from "../Section/Section.jsx";
-import KnowledgeCard from "./knowledgeCard.jsx";
 import "./Knowledge.css";
 import Subject from "../Subject/Subject.jsx";
+import KnowledgeCard from "./KnowledgeCard";
 
 export default function Knowdledge() {
   return (
