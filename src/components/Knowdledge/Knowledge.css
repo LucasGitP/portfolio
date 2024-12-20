@@ -5,6 +5,11 @@
   justify-content: center;
   padding: 25px;
   gap: 15px;
+
+  h3 {
+    color: #1fc0e2;
+    text-shadow: 0 0 10px #1fc0e2;
+  }
 }
 
 .know {
