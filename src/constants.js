@@ -1,7 +1,7 @@
 export const sections = {
   knowledge: "Knowdledge",
   experience: "Experience",
-  references: "References",
+  // references: "References",
   education: "Education",
   projects: "Projects",
   about: "About me",
