@@ -3,4 +3,8 @@
   align-items: center;
   gap: 20px;
   height: 40px;
+
+  h4 {
+    color: #1fc0e2;
+  }
 }
