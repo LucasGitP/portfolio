@@ -16,9 +16,13 @@
     height: 25px;
     color: white;
   }
-}
 
-.icon:hover {
+  a {
+    display: block;
+    border-radius: 100%;
+  }
+}
+.icon a:hover {
   box-shadow: 0 0 10px 0 white;
   transition: all 0.5s;
 }
