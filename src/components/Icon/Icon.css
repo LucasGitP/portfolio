@@ -1,6 +1,6 @@
 .icon {
   border-radius: 100%;
-
+  box-shadow: 0 0 5px 0 #3b3838;
   div {
     display: flex;
     justify-content: center;
